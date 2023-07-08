@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/qunit-reporter-junit.svg?branch=master)](https://travis-ci.org/JamesMGreene/qunit-reporter-junit) [![NPM version](https://badge.fury.io/js/qunit-reporter-junit.svg)](http://badge.fury.io/js/qunit-reporter-junit)
 # JUnit Reporter for QUnit
 
 A QUnit plugin that produces JUnit-style XML test reports (e.g. for integration into build tools like Jenkins).
