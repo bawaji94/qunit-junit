@@ -17,7 +17,7 @@ QUnit.jUnitDone(function(report) {
 });
 ```
 
-With this new API (as of `v1.1.0`), you can even register a callback after the tests have finished and still successfully receive the data (so long as the "qunit-reporter-junit.js" script was included before the test run began).
+With this new API (as of `v1.0.0`), you can even register a callback after the tests have finished and still successfully receive the data (so long as the "qunit-reporter-junit.js" script was included before the test run began).
 
 
 ### Old API
@@ -33,8 +33,3 @@ QUnit.jUnitReport = function(report) {
 ```
 
 With this old API, you **MUST** implement the callback before the tests have finished or else you will never receive the data.
-
-
-## Notes
-
-If you're using Grunt, you should take a look [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit).
